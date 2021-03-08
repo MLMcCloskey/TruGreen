@@ -2,3 +2,64 @@ html {
     min-width: 320px;
     max-width: 678px;
 }
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+
+
+/* misc */
+.orange-box {
+    background-color: #ffb034;
+    color: white;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+    max-width: 250px;
+    max-height: 50px;
+    border-radius: 5px;
+}
+
+a {
+    color: inherit;
+}
+
+/* .phone-icon {
+    display: inline;
+    padding: 0 10px 10px 0;
+} */
+
+
+
+
+
+/* Header styles */
+header {
+    margin: auto
+}
+
+.logo {
+    width: 48%;
+    padding: 2%;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+.card {
+    background-color: #eff0ef;
+    width: 40%;
+    height: 100px;
+    margin: 15px;
+}
