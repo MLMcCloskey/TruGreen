@@ -121,9 +121,25 @@ header {
     color: #006f3b;
 }
 
+.shrub-services img {
+    vertical-align: bottom;
+    display: inline-block;
+    transform: scale(1.25, 1.25);
+    margin: 20px auto;
+}
 
+#tree-shrub {
+    margin: auto;
+    text-align: center;
+}
 
+#tree {
+    z-index: 1;
+}
 
+#shrub {
+    z-index: 2;
+}
 
 
 
@@ -202,4 +218,24 @@ header {
 .plan-column {
     background-color: #eff0ef;
     margin: 0 20px;
+}
+
+
+
+
+
+
+/* Bottom form */
+.bottom-form {
+    width: 100%;
+    margin: 25px auto 0;
+    padding: 10px;
+    max-width: none;
+    background-color: #73c573;
+    color: white;
+}
+
+.phone-cta {
+    font-size: 1.1em;
+    font-weight: 600;
 }
