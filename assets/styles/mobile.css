@@ -158,9 +158,48 @@ header {
 
 
 /* plans */
+
+.plans {
+    margin: auto;
+}
+
 .plans h5 {
     text-align: center;
     color: #006f3b;
     font-size: 1.1em;
     font-weight: 700;
+}
+
+
+.plans td {
+    background-color: #eff0ef;
+    padding: 10px;
+    margin: 5px;
+}
+
+.plans .row {
+    /* margin: 10px; */
+    /* padding: 25px; */
+    line-height: 200%;
+}
+
+.sideways {
+    /* writing-mode: vertical-rl;
+    text-orientation: sideways-left; */
+    transform-origin: 0 50%;
+    transform: rotate(-90deg);
+    display: inline-block;
+    position: absolute;
+    /* left: 60px; */
+    right: -60px;
+    bottom: 9px;
+    /* right: 10px; */
+    white-space: nowrap;
+    background-color: #eff0ef;
+    /* text-align: right; */
+}
+
+.plan-column {
+    background-color: #eff0ef;
+    margin: 0 20px;
 }
