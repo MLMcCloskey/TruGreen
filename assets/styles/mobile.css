@@ -4,6 +4,11 @@ html {
     margin: auto;
 }
 
+body {
+    min-width: 320px;
+    max-width: 678px;
+}
+
 .row {
     margin-left: 0;
     margin-right: 0;
@@ -19,9 +24,12 @@ html {
     font-weight: bold;
     display: block;
     margin: 0 auto;
+    min-width: 200px;
     max-width: 250px;
+    min-height: 42px;
     max-height: 50px;
     border-radius: 5px;
+    font-size: 1.5em;
 }
 
 .phone-icon {
@@ -30,7 +38,8 @@ html {
 }
 
 .phone-number {
-    font-size: 2em;
+    /* font-size: 2em; */
+    font-weight: 400;
 }
 
 a {
@@ -71,17 +80,17 @@ header {
 
 .top-phone-number {
     margin: 0;
-    font-size: 2.5em;
+    font-size: 2em;
     margin: -5px 0 0 0;
 }
 
 .top-phone-number img {
-    transform: scale(1.5, 1.5);
+    transform: scale(1.25, 1.25);
     padding-right: 15px
 }
 
 .top-phone-cta {
-    font-size: 2em;
+    font-size: 1.25em;
     margin: auto;
     font-weight: 500;
 }
@@ -107,6 +116,8 @@ header {
     color: white;
     background-color: #73c573;
     z-index: 3;
+    width: 90%;
+    margin: -20px auto;
 }
 
 
@@ -126,6 +137,7 @@ header {
 #HeroForm {
     border-radius: 10px;
     /* margin-top: -40px; */
+    margin-bottom: 20px;
 }
 
 #HeroForm h4 {
@@ -224,8 +236,8 @@ header {
 .mobile-cta {
     text-align: center;
     margin: auto;
+    font-size: 1.25em;
 }
-
 
 
 
@@ -261,9 +273,9 @@ header {
     transform-origin: 0 50%;
     transform: rotate(-90deg);
     display: inline-block;
-    position: absolute;
-    /* left: 60px; */
-    right: -60px;
+    position: relative;
+    left: -20px;
+    /* right: -60px; */
     bottom: 9px;
     /* right: 10px; */
     white-space: nowrap;
