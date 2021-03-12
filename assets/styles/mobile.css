@@ -137,7 +137,7 @@ header {
 #HeroForm {
     border-radius: 10px;
     /* margin-top: -40px; */
-    margin-bottom: 20px;
+    /* margin-bottom: 20px;n */
 }
 
 #HeroForm h4 {
@@ -264,7 +264,7 @@ header {
 .plans .row {
     /* margin: 10px; */
     /* padding: 25px; */
-    line-height: 200%;
+    /* line-height: 200%; */
 }
 
 .sideways {
@@ -273,11 +273,10 @@ header {
     transform-origin: 0 50%;
     transform: rotate(-90deg);
     display: inline-block;
-    position: relative;
-    left: -20px;
+    position: absolute;
+    left: -15%;
     /* right: -60px; */
-    bottom: 9px;
-    /* right: 10px; */
+    bottom: 55px;
     white-space: nowrap;
     background-color: #eff0ef;
     /* text-align: right; */
@@ -285,7 +284,11 @@ header {
 
 .plan-column {
     background-color: #eff0ef;
-    margin: 0 20px;
+    margin: 0 4%;
+    text-align: center;
+    font-size: 3.2vw;
+    padding: 10px;
+    /* margin-right: 0px; */
 }
 
 
