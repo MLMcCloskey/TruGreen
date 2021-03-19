@@ -58,7 +58,7 @@ a {
 }
 
 ::placeholder {
-    color: #002f47 !important;
+    color: #333 !important;
     opacity: 1;
     font-weight: 500;
     font-size: 1.5em;
@@ -92,6 +92,24 @@ a {
 
 
 
+/* hero styling */
+
+
+
+
+
+
+/* green banner section */
+
+.green-banner {
+    background-color: #73c573;
+    display: inline-block;
+    width: 100%;
+    padding: 20px;
+}
+
+
+
 /* tree and shrub services */
 
 .card {
@@ -99,4 +117,12 @@ a {
     background-color: #eff0ef;
     width: 15%;
     height: 100px;
+}
+
+
+
+/* desktop cta */
+
+.desktop-cta {
+    margin: auto;
 }
