@@ -2,3 +2,16 @@ html {
     min-width: 678px;
     max-width: 1440px;
 }
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+
+
+/* header styling */
+.phone-advert {
+    float: right;
+}
