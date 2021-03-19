@@ -10,8 +10,93 @@ html {
 
 
 
+/* misc */
+.orange-box {
+    background-color: #ffb034;
+    color: white;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+    min-width: 200px;
+    max-width: 250px;
+    min-height: 42px;
+    max-height: 50px;
+    border-radius: 5px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+a {
+    color: inherit;
+}
+
+
+
+
+
+/* Forms */
+#HeroForm, .bottom-form {
+    background-color: #fafaf4;
+    width: 90%;
+    margin: 15px auto;
+    padding: 15px;
+    color: black;
+    text-align: center;
+    max-width: 580px;
+    z-index: 2;
+}
+
+#HeroForm {
+    border-radius: 10px;
+    /* margin-top: -40px; */
+    /* margin-bottom: 20px;n */
+}
+
+.form-inputs {
+    margin: 15px auto 0;
+    max-width: 420px;
+}
+
+::placeholder {
+    color: #002f47 !important;
+    opacity: 1;
+    font-weight: 500;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.form-control {
+    margin: 20px 5% 0 5%;
+    width: 90%;
+}
+
+.tcpa {
+    margin: 10px auto;
+    max-width: 390px;
+}
+
+.tcpa #text {
+    display: block;
+    padding: 0 15px;
+}
+
+
+
+
 
 /* header styling */
 .phone-advert {
     float: right;
+}
+
+
+
+
+/* tree and shrub services */
+
+.card {
+    display: inline-block;
+    background-color: #eff0ef;
+    width: 15%;
+    height: 100px;
 }
