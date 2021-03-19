@@ -126,3 +126,21 @@ a {
 .desktop-cta {
     margin: auto;
 }
+
+
+
+/* mobile banner */
+.mobile-banner {
+    background-image: url("../images/desktop-images/App\ Bar.png");
+    align-content: center;
+}
+
+
+
+
+
+/* plans */
+
+.plans {
+    margin: auto;
+}
