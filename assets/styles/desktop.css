@@ -116,12 +116,17 @@ a {
     display: inline-block;
 }
 
+.green-banner img {
+    position: relative;
+    bottom: 5px;
+}
+
+
 
 
 
 /* tree and shrub services */
 #tree-shrub {
-    /* display: inline-block; */
     float: left;
 }
 
@@ -129,7 +134,7 @@ a {
     vertical-align: bottom;
     display: inline-block;
     /* transform: scale(1.25, 1.25); */
-    margin: 20px auto;
+    /* margin: 20px auto; */
 }
 
 #tree {
@@ -184,7 +189,7 @@ a {
 
 .desktop-cta {
     display: block;
-    margin: 100px auto 40px;
+    margin: 80px auto 40px;
 }
 
 
@@ -193,11 +198,23 @@ a {
 .mobile-banner {
     background-image: url("../images/desktop-images/App\ Bar.png");
     color: white;
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    justify-content: space-around;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* align-content: center; */
+    /* justify-content: space-around; */
     white-space: nowrap;
+}
+
+.mobile-banner .row {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+}
+
+.mobile-banner h4 {
+    margin-right: -25%;
+    font-weight: 600;
 }
 
 
