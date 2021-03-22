@@ -103,20 +103,73 @@ a {
 
 .green-banner {
     background-color: #73c573;
-    display: inline-block;
+    display: inline-flex;
     width: 100%;
     padding: 20px;
+    align-content: center;
+    justify-content: space-evenly;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.green-banner h4 {
+    display: inline-block;
 }
 
 
 
+
 /* tree and shrub services */
+#tree-shrub {
+    /* display: inline-block; */
+    float: left;
+}
+
+.shrub-services img {
+    vertical-align: bottom;
+    display: inline-block;
+    transform: scale(1.25, 1.25);
+    margin: 20px auto;
+}
+
+#shrub {
+    position: relative;
+    bottom: -90px;
+    left: -25px;
+}
+
+#shrub-services {
+    display: inline-block;
+    color: #00703c;
+    margin-left: -50px;
+    margin-top: 0;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.shrub-services p {
+    width: 95%;
+}
+
+.shrub-services h3 {
+    color: #00703c;
+    text-align: center;
+    margin: 30px;
+    font-weight: 600;
+}
+
+.cards .col-xs-7 {
+    display: inline-flex;
+    justify-content: space-around;
+}
 
 .card {
-    display: inline-block;
     background-color: #eff0ef;
-    width: 15%;
-    height: 100px;
+    width: 19%;
+    height: 120px;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
 }
 
 
@@ -124,7 +177,8 @@ a {
 /* desktop cta */
 
 .desktop-cta {
-    margin: auto;
+    display: block;
+    margin: 100px auto 40px;
 }
 
 
@@ -132,7 +186,12 @@ a {
 /* mobile banner */
 .mobile-banner {
     background-image: url("../images/desktop-images/App\ Bar.png");
+    color: white;
+    display: flex;
+    flex-direction: row;
     align-content: center;
+    justify-content: space-around;
+    white-space: nowrap;
 }
 
 
@@ -143,4 +202,14 @@ a {
 
 .plans {
     margin: auto;
+}
+
+.plan-cards {
+    height: 550px;
+    border-radius: 3%;
+    width: 25%;
+}
+
+#center-plan {
+    background-color: #e9f9ee;
 }
