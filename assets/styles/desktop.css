@@ -227,12 +227,30 @@ a {
     margin: auto;
 }
 
+.plans h4 {
+    text-align: center;
+    margin: 50px;
+    color: #00703c;
+    font-weight: 700;
+}
+
+.plans .row {
+    display: flex;
+    justify-content: center;
+}
+
 .plan-cards {
     height: 550px;
     border-radius: 3%;
-    width: 25%;
+    width: 28%;
+    text-align: left;
+    padding: 20px 40px;
+    margin: 25px -10px;
+    box-shadow: 5px 5px 15px #888;
 }
 
 #center-plan {
     background-color: #e9f9ee;
+    margin-top: -30px;
+    z-index: 3;
 }
