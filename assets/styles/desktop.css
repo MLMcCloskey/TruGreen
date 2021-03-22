@@ -229,7 +229,7 @@ a {
 
 .plans h4 {
     text-align: center;
-    margin: 50px;
+    margin: 50px auto 80px;
     color: #00703c;
     font-weight: 700;
 }
@@ -252,5 +252,16 @@ a {
 #center-plan {
     background-color: #e9f9ee;
     margin-top: -30px;
+    padding-top: 0;
     z-index: 3;
+}
+
+#popular {
+    background-color: #73c573;
+    color: white;
+    font-size: 1.5em;
+    padding: 5px 25px;
+    position: relative;
+    top: -15px;
+    left: 50px;
 }
