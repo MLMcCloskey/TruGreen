@@ -3,4 +3,4 @@ Landing pages created for TruGreen lawncare services website created in HTML wit
 
 Mobile Layout: https://mlmccloskey.github.io/TruGreen/
 
-Desktop Layout: 
+Desktop Layout: https://mlmccloskey.github.io/TruGreen/desktop-index.html
