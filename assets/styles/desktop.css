@@ -85,10 +85,28 @@ a {
 
 
 /* header styling */
-.phone-advert {
-    float: right;
+header {
+    padding: 25px 25px 0;
 }
 
+.phone-advert {
+    float: right;
+    display: flex;
+}
+
+#header-phone {
+    display: inline-flex;
+    padding-left: 10px;
+}
+
+.top-phone-cta {
+    display: inline-flex;
+    margin: 0;
+    padding-right: 10px;
+    color: #00703c;
+    font-size: 1.2em;
+    font-weight: 600;
+}
 
 
 
