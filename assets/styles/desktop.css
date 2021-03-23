@@ -189,7 +189,9 @@ a {
 
 .desktop-cta {
     display: block;
-    margin: 80px auto 40px;
+    margin: 100px auto 40px;
+    font-size: 1.5em;
+    line-height: 250%;
 }
 
 
@@ -198,10 +200,6 @@ a {
 .mobile-banner {
     background-image: url("../images/desktop-images/App\ Bar.png");
     color: white;
-    /* display: flex; */
-    /* flex-direction: row; */
-    /* align-content: center; */
-    /* justify-content: space-around; */
     white-space: nowrap;
 }
 
@@ -319,6 +317,7 @@ a {
 
 .bottom .col-xs-4 {
     text-align: center;
+    margin-top: 40px;
 }
 
 .bottom .col-xs-4 img, .bottom .col-xs-4 h4 {
