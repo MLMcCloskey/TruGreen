@@ -2,6 +2,11 @@ html {
     min-width: 678px;
     max-width: 1440px;
     margin: auto;
+    overflow-x: hidden;
+}
+
+header {
+    max-width: 1440px;
 }
 
 .row {
@@ -128,8 +133,8 @@ header {
 
 #service-tech {
     position: absolute;
-    bottom: 366px;
-    right: 277px;
+    bottom: -84px;
+    right: -25px;
 }
 
 
