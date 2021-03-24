@@ -129,12 +129,13 @@ header {
     background-image: url('../images/desktop-images/Hero\ Img.png');
     padding-bottom: 120px;
     padding-top: 50px;
+    position: relative;
 }
 
 #service-tech {
     position: absolute;
-    bottom: -84px;
-    right: -25px;
+    bottom: -4.5%;
+    right: -2%;
 }
 
 
