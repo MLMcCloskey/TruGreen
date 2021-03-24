@@ -79,6 +79,7 @@ a {
 .tcpa {
     margin: 10px auto;
     max-width: 390px;
+    color: black;
 }
 
 .tcpa #text {
