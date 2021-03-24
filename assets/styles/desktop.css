@@ -138,6 +138,26 @@ header {
     right: -2%;
 }
 
+.hero-text {
+    background-color: #73c573;
+    color: white;
+    position: absolute;
+    top: 5px;
+    left: 217px;
+    font-weight: 600;
+}
+
+#hero-cta {
+    color:#ffb034;
+    font-size: 1.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+    width: 80%;
+    margin: auto;
+}
+
 
 
 
