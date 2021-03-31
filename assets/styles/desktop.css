@@ -263,6 +263,7 @@ header {
 /* mobile banner */
 .mobile-banner {
     background-image: url("../images/desktop-images/App\ Bar.png");
+    background-position: center;
     color: white;
     white-space: nowrap;
 }
@@ -333,7 +334,7 @@ header {
 
 
 
-/* Bottom Form */
+/* Bottom section */
 
 .bottom {
     margin-top: 30px;
@@ -392,4 +393,8 @@ header {
 .bottom .col-xs-4 p {
     font-size: 1.3em;
     margin: 20px auto 10px;
+}
+
+#bottom-logo {
+    width: 100%;
 }
