@@ -255,7 +255,7 @@ header {
 
 .desktop-cta {
     display: block;
-    margin: 100px auto 40px;
+    margin: 5% auto 40px;
     font-size: 1.5em;
     line-height: 250%;
 }
@@ -392,7 +392,7 @@ header {
 
 .bottom .col-xs-4 img, .bottom .col-xs-4 h4 {
     display: inline-block;
-    font-size: 3em;
+    font-size: 3vw;
 }
 
 .bottom .col-xs-4 p {
@@ -402,4 +402,18 @@ header {
 
 #bottom-logo {
     width: 100%;
+}
+
+
+
+
+
+
+
+/* max values */
+
+@media only screen and (min-width: 1440px) {
+    .bottom .col-xs-4 img, .bottom .col-xs-4 h4 {
+        font-size: 3em;
+    }
 }
