@@ -270,6 +270,10 @@ header {
     line-height: 250%;
 }
 
+.desktop-cta p {
+    margin: 0;
+}
+
 
 
 
@@ -389,9 +393,8 @@ header {
 }
 
 .bottom-submit {
-    width: 100%;
+    width: 90%;
     max-width: none;
-    margin-right: 5%;
     margin-top: 5%;
 }
 
