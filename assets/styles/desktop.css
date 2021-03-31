@@ -243,10 +243,13 @@ header {
 .card {
     background-color: #eff0ef;
     width: 19%;
-    height: 120px;
+    min-height: 120px;
+    height: auto;
     display: inline-block;
     text-align: center;
     padding: 10px;
+    display: flex;
+    align-items: center;
 }
 
 
@@ -314,6 +317,7 @@ header {
     padding: 20px 40px;
     margin: 25px -10px;
     box-shadow: 5px 5px 15px #888;
+    background-color: #f7f7f7;
 }
 
 #center-plan {
