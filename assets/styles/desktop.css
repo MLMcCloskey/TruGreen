@@ -375,7 +375,8 @@ header {
 .bottom-submit {
     width: 100%;
     max-width: none;
-    margin-right: 5%
+    margin-right: 5%;
+    margin-top: 5%;
 }
 
 .phone-cta {
