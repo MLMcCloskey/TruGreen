@@ -204,12 +204,14 @@ header {
 #tree {
     margin-left: 30px;
     margin-right: -130px;
+    width: 20vw;
 }
 
 #shrub {
     position: relative;
     bottom: -120px;
     left: -25px;
+    width: 15vw;
 }
 
 #shrub-services {
@@ -276,7 +278,7 @@ header {
 }
 
 .mobile-banner h4 {
-    margin-right: -25%;
+    margin-right: -10%;
     font-weight: 600;
 }
 
@@ -303,7 +305,8 @@ header {
 }
 
 .plan-cards {
-    height: 550px;
+    min-height: 550px;
+    height: auto;
     border-radius: 3%;
     width: 28%;
     text-align: left;
