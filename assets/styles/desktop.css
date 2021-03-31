@@ -5,6 +5,7 @@ html {
     overflow-x: hidden;
 }
 
+
 header {
     max-width: 1440px;
 }
@@ -12,7 +13,10 @@ header {
 .row {
     margin-left: 0;
     margin-right: 0;
+    /* min-width: 678px; */
+    max-width: 1440px;
 }
+
 
 
 
@@ -34,6 +38,10 @@ header {
 
 a {
     color: inherit;
+}
+
+\2120 {
+    font-size: 0.2em;
 }
 
 
@@ -125,7 +133,6 @@ header {
 
 
 /* hero styling */
-
 .truGreen-hero {
     background-image: url('../images/desktop-images/Hero\ Img.png');
     padding-bottom: 120px;
@@ -164,7 +171,6 @@ header {
 
 
 /* green banner section */
-
 .green-banner {
     background-color: #73c573;
     display: inline-flex;
@@ -204,14 +210,14 @@ header {
 #tree {
     margin-left: 30px;
     margin-right: -130px;
-    width: 20vw;
+    width: clamp(200px, 20vw, 300px);
 }
 
 #shrub {
     position: relative;
     bottom: -120px;
-    left: -25px;
-    width: 15vw;
+    left: -5%;
+    width: clamp(150px, 15vw, 225px);
 }
 
 #shrub-services {
@@ -254,14 +260,17 @@ header {
 
 
 
-/* desktop cta */
 
+
+/* desktop cta */
 .desktop-cta {
     display: block;
     margin: 5% auto 40px;
     font-size: 1.5em;
     line-height: 250%;
 }
+
+
 
 
 
@@ -276,7 +285,7 @@ header {
 .mobile-banner .row {
     display: flex;
     align-items: center;
-    width: 50%;
+    width: 500px;
     margin: auto;
 }
 
@@ -338,7 +347,7 @@ header {
     top: -15px;
     left: 50px; */
     display: block;
-    margin: -15px auto 0;
+    margin: -20px auto 0;
     width: 185px; 
 }
 
@@ -418,7 +427,6 @@ header {
 #bottom-logo {
     width: 100%;
 }
-
 
 
 
