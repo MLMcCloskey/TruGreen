@@ -318,8 +318,9 @@ header {
 
 #center-plan {
     background-color: #e9f9ee;
-    margin-top: -30px;
+    margin-top: -20px;
     padding-top: 0;
+    height: calc(100% - 20px);
     z-index: 3;
 }
 
@@ -369,6 +370,12 @@ header {
 
 .bottom-form .tcpa {
     padding-left: 0;
+}
+
+.bottom-submit {
+    width: 100%;
+    max-width: none;
+    margin-right: 5%
 }
 
 .phone-cta {
