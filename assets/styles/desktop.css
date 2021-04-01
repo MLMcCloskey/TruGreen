@@ -210,13 +210,14 @@ header {
 
 #tree {
     margin-left: 30px;
-    margin-right: -130px;
+    margin-right: -10vw;
+    margin-bottom: 80px;
     width: clamp(160px, 20vw, 320px);
 }
 
 #shrub {
     position: relative;
-    bottom: -120px;
+    bottom: -20px;
     left: -5%;
     width: clamp(120px, 15vw, 240px);
 }
@@ -242,7 +243,7 @@ header {
     font-weight: 600;
 }
 
-.cards .col-xs-8 {
+#expectations {
     display: inline-flex;
     justify-content: space-around;
 }
