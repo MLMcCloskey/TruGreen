@@ -149,9 +149,11 @@ header {
 .hero-text {
     background-color: #73c573;
     color: white;
-    position: absolute;
-    top: 5px;
-    left: 217px;
+    width: fit-content;
+    position: relative;
+    white-space: nowrap;
+    top: -45px;
+    right: 7vw;
     font-weight: 600;
 }
 
