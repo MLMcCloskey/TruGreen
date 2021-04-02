@@ -96,7 +96,6 @@ a {
 
 .tcpa {
     margin: 0 10px;
-    max-width: 390px;
     color: black;
     font-size: 0.9em;
 }
@@ -177,6 +176,7 @@ header {
     font-size: 1.2em;
     width: 80%;
     margin: auto;
+    margin-top: -40px;
 }
 
 #service-tech {
@@ -232,8 +232,6 @@ header {
 .shrub-services img {
     vertical-align: bottom;
     display: inline-block;
-    /* transform: scale(1.25, 1.25); */
-    /* margin: 20px auto; */
 }
 
 #tree {
