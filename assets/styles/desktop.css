@@ -452,6 +452,7 @@ header {
 .bottom .col-xs-4 img, .bottom .col-xs-4 h4 {
     display: inline-block;
     font-size: 3.5vw;
+    font-weight: 600;
 }
 
 .bottom .col-xs-4 p {
