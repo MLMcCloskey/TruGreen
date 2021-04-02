@@ -421,8 +421,10 @@ header {
 
 
 .bottom-form .tcpa {
+    color: black;
     padding-left: 0;
     margin-top: 15px;
+    margin: auto;
 }
 
 .bottom-submit {
@@ -439,11 +441,6 @@ header {
 #exclamation {
     color: #ffb034;
     font-size: 3rem;
-}
-
-.bottom-form .tcpa {
-    color: #888;
-    margin-right: auto;
 }
 
 .bottom .col-xs-4 {
