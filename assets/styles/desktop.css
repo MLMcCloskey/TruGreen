@@ -34,6 +34,7 @@ header {
     border-radius: 5px;
     font-size: 1.5em;
     text-align: center;
+    box-shadow: 5px 5px 15px #888;
 }
 
 a {
@@ -138,9 +139,10 @@ header {
 /* hero styling */
 .truGreen-hero {
     background-image: url('../images/desktop-images/Hero\ Img.png');
-    padding-bottom: 13px;
+    /* padding-bottom: 13px; */
     padding-top: 50px;
     position: relative;
+    height: 706px;
 }
 
 
@@ -153,6 +155,7 @@ header {
     top: -45px;
     right: 7vw;
     font-weight: 600;
+    font-size: 2.5em;
 }
 
 #hero-cta {
@@ -176,7 +179,7 @@ header {
 #dot-line {
     position: relative;
     z-index: 0;
-    bottom: 25px;
+    bottom: 50px;
 }
 
 
@@ -225,7 +228,7 @@ header {
 
 #tree {
     margin-left: 30px;
-    margin-right: -10vw;
+    margin-right: max(-10vw, -155px);
     margin-bottom: 80px;
     width: clamp(160px, 20vw, 320px);
 }
@@ -439,7 +442,7 @@ header {
 
 .bottom .col-xs-4 img, .bottom .col-xs-4 h4 {
     display: inline-block;
-    font-size: 3vw;
+    font-size: 3.5vw;
 }
 
 .bottom .col-xs-4 p {
@@ -449,6 +452,12 @@ header {
 
 #bottom-logo {
     width: 100%;
+}
+
+#bottom-phone {
+    width: min(3vw, 40px);
+    padding-bottom: 3%;
+    margin-right: 5px;
 }
 
 
