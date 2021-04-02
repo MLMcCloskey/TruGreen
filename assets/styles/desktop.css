@@ -86,8 +86,16 @@ a {
     width: 90%;
 }
 
+#submit-row {
+    margin-top: 15px;
+}
+
+#Post {
+    margin-right: 5%;
+}
+
 .tcpa {
-    margin: 10px auto;
+    margin: 0 10px;
     max-width: 390px;
     color: black;
 }
@@ -133,6 +141,7 @@ header {
     font-size: 1.3em;
     font-weight: 600;
 }
+
 
 
 
