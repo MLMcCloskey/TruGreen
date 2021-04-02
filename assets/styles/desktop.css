@@ -97,7 +97,6 @@ a {
 .tcpa {
     margin: 0 10px;
     color: black;
-    font-size: 0.9em;
 }
 
 .tcpa #text {
@@ -428,7 +427,7 @@ header {
 .bottom-submit {
     width: 90%;
     max-width: none;
-    margin-top: -10%;
+    margin-top: -5%;
 }
 
 .phone-cta {
