@@ -104,7 +104,7 @@ header {
 /* Hero section */
 #hero-cta {
     color: #febb5a;
-    font-size: 4vw;
+    font-size: min(4vw, 2em);
 }
 
 .hero {
@@ -129,7 +129,7 @@ header {
     /* width: 90%; */
     /* margin: -20px auto; */
     margin: -25px auto 10px;
-    font-size: 4vw;
+    font-size: min(4vw, 1.75em);
     font-weight: 600;
 }
 
@@ -260,7 +260,7 @@ header {
 .plans h5 {
     text-align: center;
     color: #006f3b;
-    font-size: 3vw;
+    font-size: min(3vw, 2em);
     font-weight: 700;
     margin-bottom: 40px;
 }
@@ -328,11 +328,11 @@ header {
 }
 
 .bottom-form h2 {
-    font-size: 10vw;
+    font-size: min(10vw, 5em);
 }
 
 .bottom-form h4 {
-    font-size: 5vw;
+    font-size: min(5vw, 3em);
 }
 
 .phone-cta {
