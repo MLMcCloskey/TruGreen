@@ -38,7 +38,6 @@ body {
 }
 
 .phone-number {
-    /* font-size: 2em; */
     font-weight: 400;
 }
 
@@ -46,10 +45,6 @@ a {
     color: inherit;
 }
 
-/* .phone-icon {
-    display: inline;
-    padding: 0 10px 10px 0;
-} */
 
 
 
@@ -118,16 +113,12 @@ header {
 
 .hero img {
     width: 100%;
-    /* position: absolute;
-    z-index: -1; */
 }
 
 .hero-text {
     color: white;
     background-color: #73c573;
     z-index: 3;
-    /* width: 90%; */
-    /* margin: -20px auto; */
     margin: -25px auto 10px;
     font-size: min(4vw, 1.75em);
     font-weight: 600;
@@ -149,8 +140,6 @@ header {
 
 #HeroForm {
     border-radius: 10px;
-    /* margin-top: -40px; */
-    /* margin-bottom: 20px;n */
 }
 
 .form-inputs {
@@ -197,6 +186,7 @@ header {
 .shrub-services h3 {
     text-align: center;
     color: #006f3b;
+    font-weight: 600;
 }
 
 .shrub-services img {
@@ -219,8 +209,6 @@ header {
     z-index: 2;
 }
 
-
-
 .card {
     background-color: #eff0ef;
     /* width: 40%; */
@@ -230,10 +218,6 @@ header {
     text-align: center;
 }
 
-.bottom-card {
-    /* align-self: center; */
-    /* margin: auto; */
-}
 
 
 
@@ -251,8 +235,11 @@ header {
 
 
 
-/* plans */
 
+
+
+
+/* plans */
 .plans {
     margin: auto;
 }
@@ -260,7 +247,7 @@ header {
 .plans h5 {
     text-align: center;
     color: #006f3b;
-    font-size: min(3vw, 2em);
+    font-size: clamp(1.1em, 3vw, 2em);
     font-weight: 700;
     margin-bottom: 40px;
 }
@@ -272,34 +259,23 @@ header {
     margin: 5px;
 }
 
-.plans .row {
-    /* margin: 10px; */
-    /* padding: 25px; */
-    /* line-height: 200%; */
-}
-
 .sideways {
-    /* writing-mode: vertical-rl;
-    text-orientation: sideways-left; */
     transform-origin: 0 50%;
     transform: rotate(-90deg);
     display: inline-block;
     position: absolute;
     left: -15%;
-    /* right: -60px; */
     bottom: 55px;
     white-space: nowrap;
     background-color: #eff0ef;
-    /* text-align: right; */
 }
 
 .plan-column {
     background-color: #eff0ef;
     margin: 0 4%;
     text-align: center;
-    font-size: min(3.2vw, 1.6em);
+    font-size: min(3.3vw, 1.6em);
     padding: 10px;
-    /* margin-right: 0px; */
 }
 
 #popular {
@@ -312,6 +288,7 @@ header {
     font-size: 0.85em;
     font-weight: 600;
 }
+
 
 
 
