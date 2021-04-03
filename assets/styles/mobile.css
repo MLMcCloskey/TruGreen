@@ -45,6 +45,11 @@ a {
     color: inherit;
 }
 
+.sm {
+    font-size: 0.75em;
+    position: relative;
+    bottom: 5px;
+}
 
 
 
@@ -225,6 +230,10 @@ header {
     text-align: center;
 }
 
+.card-body {
+    display: flex;
+    align-items: center;
+}
 
 
 
